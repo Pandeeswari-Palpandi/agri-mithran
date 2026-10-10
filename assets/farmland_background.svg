@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9f0f3"/>
+      <stop offset=".58" stop-color="#f7f6de"/>
+      <stop offset="1" stop-color="#f8dfaa"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83b86b"/>
+      <stop offset="1" stop-color="#315f43"/>
+    </linearGradient>
+    <linearGradient id="foreground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c76d"/>
+      <stop offset="1" stop-color="#557943"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1240" cy="235" r="92" fill="#f4bf54" opacity=".8"/>
+  <path d="M0 510 Q210 380 410 500 T820 490 T1230 470 T1600 490 V690 H0Z"
+        fill="#8da985"/>
+  <path d="M0 590 Q240 475 500 590 T1010 565 T1600 575 V760 H0Z"
+        fill="#688d62"/>
+  <path d="M0 665 Q280 545 590 680 T1160 635 T1600 650 V1000 H0Z"
+        fill="url(#field)"/>
+  <path d="M0 815 Q300 680 650 795 T1280 760 T1600 770 V1000 H0Z"
+        fill="url(#foreground)"/>
+  <g fill="none" stroke="#e2d28a" stroke-linecap="round" opacity=".42">
+    <path d="M-80 1010 Q420 760 820 855 T1680 800" stroke-width="10"/>
+    <path d="M-70 1060 Q430 810 850 905 T1680 850" stroke-width="7"/>
+    <path d="M-50 1110 Q445 860 880 955 T1680 900" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#d7e8b2" stroke-linecap="round" opacity=".3">
+    <path d="M80 705 Q330 620 550 700" stroke-width="5"/>
+    <path d="M1010 690 Q1290 590 1530 675" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+beautifulsoup4
+faiss-cpu
+fastapi
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-openai
+langchain-text-splitters
+pydantic
+pypdf
+python-dotenv
+requests
+streamlit
+uvicorn[standard]
